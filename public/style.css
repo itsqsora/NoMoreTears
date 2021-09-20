@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+    box-sizing: border-box;
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url(../img/สาเหตุของการเกิดอุบัติเหตุบนมอเตอร์ไซด์.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.text-container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+    animation: showup 4s;
+}
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:.5;}
+    80% {opacity:.8;}
+    100% {opacity:1;}
+}
+/* .myslider {
+    height: 655px;
+    display: none;
+    overflow: hidden;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s; 
+}
+.prev, .next{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 15px;
+    font-size: 50px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.3s;
+    user-select: none;
+}
+.prev:hover, .next:hover{
+    color: #3498db;
+}
+.next{
+    right: 0;
+}
+.dotsbox{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 20px;
+    cursor: pointer;
+}
+.dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+} */
+
+@-webkit-keyframes fade {
+    from {opacity: 0.8}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: 0.8}
+    to {opacity: 1}
+}
+
+
+/* img {
+    transform: scale(1.5, 1.5);
+    -webkit-animation-name: zoomin;
+    -webkit-animation-name: 40s;
+    animation-name: zoomin;
+    animation-duration: 40s;
+} */
+
+@-webkit-keyframes zoomin {
+    from {transform: scale(1, 1);}
+    to {transform: scale(1.5, 1.5);}
+}
+@keyframes zoomin {
+    from {transform: scale(1, 1);}
+    to {transform: scale(1.5, 1.5);}
+}
+
+.texts-container-1 {
+    position: relative;
+    top: 50%;
+    transform: translateY(80px);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img-container-1 img {
+    max-width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 200px;
+    justify-content: center;
+    display: flex;
+
+}
+.close-caption {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+.img-container-2 img {
+    max-width: 70%;
+    height: auto;
+    margin-top: 70px;
+    margin-left: 15%;
+    justify-content: center;
+    display: flex;
+
+}
+.img-container-3 img {
+    max-width: 70%;
+    height: auto;
+    margin-top: 70px;
+    margin-left: 15%;
+    justify-content: center;
+    display: flex;
+
+}
+
+section:nth-of-type(1) {
+    
+}
