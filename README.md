@@ -1,2 +1,3 @@
 # NoMoreTears
 NoMoreTears
+สภาพ
